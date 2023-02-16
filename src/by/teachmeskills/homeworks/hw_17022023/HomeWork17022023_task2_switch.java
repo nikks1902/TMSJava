@@ -24,6 +24,7 @@ public class HomeWork17022023_task2_switch {
                 break;
             case 7:
                 System.out.println("Sunday");
+                break;
             default:
                 throw new IllegalArgumentException("Not found!");
         }
