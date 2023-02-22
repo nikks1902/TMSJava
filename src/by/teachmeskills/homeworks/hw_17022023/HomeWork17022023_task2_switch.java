@@ -2,7 +2,7 @@ package by.teachmeskills.homeworks.hw_17022023;
 
 public class HomeWork17022023_task2_switch {
     public static void main(String[] args) {
-        int dayOfTheWeek = 9;
+        int dayOfTheWeek = 7;
         switch (dayOfTheWeek){
             case 1:
                 System.out.println("Monday");
@@ -24,8 +24,7 @@ public class HomeWork17022023_task2_switch {
                 break;
             case 7:
                 System.out.println("Sunday");
-            default:
-                throw new IllegalArgumentException("Not found!");
+            break;
         }
 
 
