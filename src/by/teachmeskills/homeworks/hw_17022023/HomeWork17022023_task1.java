@@ -12,7 +12,6 @@ public class HomeWork17022023_task1 {
         System.out.print("Input radius: ");
         int radius = sc.nextInt();
 
-        System.out.printf("side1=%d; side2=%d; radius=%d \n", side1, side2, radius);
         if ((side1*side1)+(side2*side2)<=(radius*2)*(radius*2))
         System.out.println("The hole can be completely covered");
         else System.out.println("The hole cannot be completely covered");
