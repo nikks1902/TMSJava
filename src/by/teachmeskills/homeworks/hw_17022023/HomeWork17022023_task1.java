@@ -4,11 +4,15 @@ import java.util.Scanner;
 
 public class HomeWork17022023_task1 {
     public static void main(String[] args) {
-        System.out.println("side1, side2, radius");
-        Scanner console = new Scanner(System.in);
-        int side1 = 8;
-        int side2 = 4;
-        int radius = 6;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input side1: ");
+        int side1 = sc.nextInt();
+        System.out.print("Input side2: ");
+        int side2 = sc.nextInt();
+        System.out.print("Input radius: ");
+        int radius = sc.nextInt();
+
+        System.out.printf("side1=%d; side2=%d; radius=%d \n", side1, side2, radius);
         if ((side1*side1)+(side2*side2)<=(radius*2)*(radius*2))
         System.out.println("The hole can be completely covered");
         else System.out.println("The hole cannot be completely covered");
