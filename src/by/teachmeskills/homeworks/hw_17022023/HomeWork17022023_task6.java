@@ -14,7 +14,7 @@ public class HomeWork17022023_task6 {
         array[0][1] = 3;
         array[0][2] = 6;
         array[0][3] = 4;
-        array[0][4] = 8;
+        array[0][4] = 2;
         array[1][0] = 7;
         array[1][1] = 9;
         array[1][2] = 2;
