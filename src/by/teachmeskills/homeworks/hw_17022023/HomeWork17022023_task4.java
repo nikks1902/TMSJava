@@ -25,7 +25,7 @@ public class HomeWork17022023_task4 {
             }
         }
 
-        for (int j = 1; j < array.length; j++) {
+        for (int j = 1; j < array.length - 1; j++) {
             if (array[j] < array[minIndex]) {
                 minIndex = j;
             }
