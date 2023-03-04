@@ -1,6 +1,6 @@
 package by.teachmeskills.homeworks.hw_170223;
 
-public class HW170223_task2 {
+public class Task2_Switch {
     public static void main(String[] args) {
         int dayOfTheWeek = 7;
         switch (dayOfTheWeek) {

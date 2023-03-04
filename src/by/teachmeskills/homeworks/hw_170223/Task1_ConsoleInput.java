@@ -2,7 +2,7 @@ package by.teachmeskills.homeworks.hw_170223;
 
 import java.util.Scanner;
 
-public class HW170223_task1 {
+public class Task1_ConsoleInput {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Input side1: ");

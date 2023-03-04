@@ -1,6 +1,6 @@
 package by.teachmeskills.homeworks.hw_170223;
 
-public class HW170223_task4 {
+public class Task4_Vector {
     public static void main(String[] args) {
         int[] array = {7, -5, 8, 15, -10, 20};
         int min = 0;

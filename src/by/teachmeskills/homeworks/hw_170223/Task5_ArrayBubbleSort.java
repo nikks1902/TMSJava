@@ -2,7 +2,7 @@ package by.teachmeskills.homeworks.hw_170223;
 
 import java.util.Arrays;
 
-public class HW170223_task5 {
+public class Task5_ArrayBubbleSort {
     public static void main(String[] args) {
         int[] array = {7, 13, 2, 0, 11};
 

@@ -1,6 +1,6 @@
 package by.teachmeskills.homeworks.hw_170223;
 
-public class HW170223_task3 {
+public class Task3_Cycles {
     public static void main(String[] args) {
         int i = 4;
 

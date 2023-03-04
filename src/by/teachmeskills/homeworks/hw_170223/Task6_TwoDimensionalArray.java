@@ -3,7 +3,7 @@ package by.teachmeskills.homeworks.hw_170223;
 import java.util.Random;
 import java.util.Scanner;
 
-public class HW170223_task6 {
+public class Task6_TwoDimensionalArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter array length");
