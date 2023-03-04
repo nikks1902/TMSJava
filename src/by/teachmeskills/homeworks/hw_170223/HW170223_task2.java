@@ -3,7 +3,7 @@ package by.teachmeskills.homeworks.hw_170223;
 public class HW170223_task2 {
     public static void main(String[] args) {
         int dayOfTheWeek = 7;
-        switch (dayOfTheWeek){
+        switch (dayOfTheWeek) {
             case 1:
                 System.out.println("Monday");
                 break;
@@ -26,7 +26,5 @@ public class HW170223_task2 {
                 System.out.println("Sunday");
                 break;
         }
-
-
     }
 }
