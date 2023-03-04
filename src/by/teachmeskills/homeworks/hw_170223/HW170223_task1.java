@@ -17,3 +17,4 @@ public class HW170223_task1 {
         else System.out.println("The hole cannot be completely covered");
     }
 }
+
