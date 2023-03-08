@@ -7,9 +7,9 @@ public class Task6_TwoDimensionalArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter array length");
-        int size1 = sc.nextInt();
-        int size2 = sc.nextInt();
-        int[][] array = new int[size1][size2];
+        int rows = sc.nextInt();
+        int columns = sc.nextInt();
+        int[][] array = new int[rows][columns];
         Random random = new Random();
 
         for (int i = 0; i < array.length; i++) {
