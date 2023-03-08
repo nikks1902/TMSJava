@@ -6,8 +6,6 @@ public class Task4_Vector {
         int min = 0;
         int max = 0;
         int sum = 0;
-        int minIndex = 0;
-        int maxIndex = 0;
         int product = 1;
 
         boolean sorted = false;
@@ -26,11 +24,11 @@ public class Task4_Vector {
         }
 
         for (int j = 1; j < array.length - 1; j++) {
-            if (array[j] < array[minIndex]) {
-                minIndex = j;
+            if (array[j] < array[min]) {
+                min = j;
             }
-            if (array[j] > array[maxIndex]) {
-                maxIndex = j;
+            if (array[j] > array[max]) {
+                max = j;
             }
             product *= array[j];
         }
