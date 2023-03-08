@@ -12,7 +12,7 @@ public class Task1_ConsoleInput {
         System.out.print("Input radius: ");
         int radius = sc.nextInt();
 
-        if ((side1*side1)+(side2*side2)<=(radius*2)*(radius*2))
+        if ((Math.pow(side1, 2))+(Math.pow(side2, 2))<=(radius*2)*(radius*2))
             System.out.println("The hole can be completely covered");
         else System.out.println("The hole cannot be completely covered");
     }
