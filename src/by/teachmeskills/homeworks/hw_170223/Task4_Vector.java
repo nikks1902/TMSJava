@@ -22,7 +22,6 @@ public class Task4_Vector {
                 }
             }
         }
-
         for (int j = 1; j < array.length - 1; j++) {
             if (array[j] < array[min]) {
                 min = j;
@@ -35,12 +34,6 @@ public class Task4_Vector {
         System.out.println(product);
 
         for (int i = 0; i < array.length; i++) {
-            if (array[i] < min) {
-                min = array[i];
-            }
-            if (array[i] > max) {
-                max = array[i];
-            }
             if (array[i] < 0) {
                 sum += array[i];
             }
