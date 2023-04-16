@@ -21,21 +21,18 @@ public class Run {
         ILeg toshibaLeg = new ToshibaLeg(500);
         Robot robot1 = new Robot(sonyHead, samsungHand, toshibaLeg);
         robot1.action();
-//        System.out.println("Общая стоимость robot1 составляет " + robot1.getPrice() + " евро");
 
         IHead toshibaHead = new ToshibaHead(1000);
         IHand sonyHand = new SonyHand(400);
         ILeg samsungLeg = new SamsungLeg(600);
         Robot robot2 = new Robot(toshibaHead, sonyHand, samsungLeg);
         robot2.action();
-//        System.out.println("Общая стоимость robot2 составляет " + robot2.getPrice() + " евро");
 
         IHead samsungHead = new SamsungHead(1150);
         IHand toshibaHand = new ToshibaHand(350);
         ILeg sonyLeg = new SonyLeg(700);
         Robot robot3 = new Robot(samsungHead, toshibaHand, sonyLeg);
         robot3.action();
-//        System.out.println("Общая стоимость robot3 составляет " + robot3.getPrice() + " евро");
 
         Robot[] robots = {robot1, robot2, robot3};
         for (Robot robot : robots) {
