@@ -1,6 +1,9 @@
 package by.teachmeskills.homeworks.hw_100323.part1_task3_strings;
 
 public class StringUtils {
+    private StringUtils() {
+    }
+
     public static void main(String[] args) {
         stringLastSymbol();
         System.out.println("*************************************");
